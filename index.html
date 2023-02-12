@@ -12,10 +12,10 @@
 
 <script>
 function ctof() {
-  document.getElementById("f").value = document.getElementById("c").value;
+  document.getElementById("f").value = (document.getElementById("c").value * 9/5) + 32;
 }
 function ftoc() {
-  document.getElementById("c").value = document.getElementById("f").value;
+  document.getElementById("c").value = (document.getElementById("f").value - 32) * 5/9;
 }
 </script>
 
