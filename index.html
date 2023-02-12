@@ -7,10 +7,17 @@
 
   <label for="c">c:</label> <input type="number" id="c"><br>
     <label for="f">f:</label> <input type="number" id="f"><br>
-  <button type="button" onclick="">c to f</button>
-  <button type="button" onclick="">f to c</button>
+  <button type="button" onclick="ctof()">c to f</button>
+  <button type="button" onclick="ftoc()">f to c</button>
 
-
+<script>
+function ctof() {
+  document.getElementById("f").value = document.getElementById("c").value;
+}
+function ftoc() {
+  document.getElementById("c").value = document.getElementById("f").value;
+}
+</script>
 
 </body>
 </html>
