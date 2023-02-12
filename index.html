@@ -5,10 +5,9 @@
 <h2>HTML Forms</h2>
 
 
-  <label for="c">c:</label> <input type="number" id="c"><br>
-    <label for="f">f:</label> <input type="number" id="f"><br>
-  <button type="button" onclick="ctof()">c to f</button>
-  <button type="button" onclick="ftoc()">f to c</button>
+  <label for="c">c:</label> <input type="number" id="c" onchange="ctof()"><br>
+    <label for="f">f:</label> <input type="number" id="f" onchange="ftoc()"><br>
+  
 
 <script>
 function ctof() {
